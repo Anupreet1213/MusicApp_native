@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anupreet_as.MusicApp2",
+      "permissions": ["MEDIA_PLAYBACK"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "94dfae00-7a48-4d75-9254-dc126c774860"
+      }
     }
   }
 }
